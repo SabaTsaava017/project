@@ -1,0 +1,40 @@
+body {
+    font-family: Arial;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #1B1F3B;
+    color: white;
+    padding: 15px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.services-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.service-card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.service-card img {
+    width: 200px;
+    height: 150px;
+}
